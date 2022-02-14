@@ -1,1 +1,12 @@
 /* styles go here */
+.form-field_personal:not(:last-child),
+.form-field_reg:not(:last-child),
+.form-field_about:not(:last-child),
+.form-field_info:not(:last-child) {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
